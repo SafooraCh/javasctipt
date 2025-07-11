@@ -1,0 +1,16 @@
+// const marksMass = 78;
+// const marksHeight = 1.69;
+// const johnsMass = 92;
+// const johnsHeight = 1.95;
+// marksBMI = marksMass / marksHeight ** 2;
+// johnsBMI = johnsMass / (johnsHeight * johnsHeight);
+// markHigherBMI = (marksBMI > johnsBMI);
+// console.log(marksBMI, johnsBMI, markHigherBMI);
+// const marksMass = 95;
+// const marksHeight = 1.88;
+// const johnsMass = 85;
+// const johnsHeight = 1.76;
+// marksBMI = marksMass / marksHeight ** 2;
+// johnsBMI = johnsMass / (johnsHeight * johnsHeight);
+// const markHigherBMI = (marksBMI > johnsBMI);
+// console.log(marksBMI, johnsBMI, markHigherBMI);
