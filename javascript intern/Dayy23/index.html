@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bankist | When Banking Meets Minimalism</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="nav">
+      <img
+        src="https://dummyimage.com/100x40/000/fff&text=Bankist"
+        alt="Bankist logo"
+        class="nav__logo"
+        id="logo"
+      />
+      <ul class="nav__links">
+        <li><a href="#section--1">Features</a></li>
+        <li><a href="#section--2">Operations</a></li>
+        <li><a href="#section--3">Testimonials</a></li>
+        <li><button class="btn--show-modal">Open Account</button></li>
+      </ul>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header__text">
+        <h1>When <span>banking</span> meets <span>minimalism</span></h1>
+        <p>A simpler banking experience for a simpler life.</p>
+        <button class="btn--show-modal">Open your free account today!</button>
+      </div>
+      <img
+        src="https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=800&q=80"
+        class="header__img"
+        alt="Minimalist banking"
+      />
+    </header>
+
+    <!-- SECTION 1: FEATURES -->
+    <section class="section" id="section--1">
+      <h2>Features</h2>
+      <div class="features">
+        <div class="feature">
+          <img
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+            alt="Digital banking"
+            class="features__img lazy-img"
+          />
+          <h3>100% digital bank</h3>
+          <p>Everything is online — no need to visit any branch.</p>
+        </div>
+        <div class="feature">
+          <img
+            src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80"
+            alt="Plant growing"
+            class="features__img lazy-img"
+          />
+          <h3>Watch your money grow</h3>
+          <p>We offer the best interest rates on the market.</p>
+        </div>
+        <div class="feature">
+          <img
+            src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&q=80"
+            alt="Credit card"
+            class="features__img lazy-img"
+          />
+          <h3>Free debit card</h3>
+          <p>Get a free debit card with no hidden charges.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: OPERATIONS -->
+    <section class="section" id="section--2">
+      <h2>Operations</h2>
+      <div class="operations">
+        <button class="operations__tab operations__tab--1">Transfer</button>
+        <button class="operations__tab operations__tab--2">Loan</button>
+        <button class="operations__tab operations__tab--3">Close</button>
+
+        <div class="operations__content operations__content--1">
+          <p>Transfer money instantly anywhere in the world.</p>
+        </div>
+        <div class="operations__content operations__content--2 hidden">
+          <p>Apply for loans and get approved within minutes.</p>
+        </div>
+        <div class="operations__content operations__content--3 hidden">
+          <p>Close your account anytime hassle-free.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: TESTIMONIALS -->
+    <section class="section" id="section--3">
+      <h2>What our customers say</h2>
+      <div class="slider">
+        <div class="slide">
+          <img
+            src="https://randomuser.me/api/portraits/women/44.jpg"
+            alt="User 1"
+            class="testimonial__photo"
+          />
+          <p>"Bankist changed my life! Super easy and fast."</p>
+        </div>
+        <div class="slide">
+          <img
+            src="https://randomuser.me/api/portraits/men/32.jpg"
+            alt="User 2"
+            class="testimonial__photo"
+          />
+          <p>"I got my loan approved in just 5 minutes!"</p>
+        </div>
+        <div class="slide">
+          <img
+            src="https://randomuser.me/api/portraits/women/68.jpg"
+            alt="User 3"
+            class="testimonial__photo"
+          />
+          <p>"The best banking experience I've ever had."</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <img
+        src="https://dummyimage.com/80x30/000/fff&text=Bankist"
+        alt="Footer logo"
+        class="footer__logo"
+      />
+      <p>&copy; 2025 Bankist. All rights reserved.</p>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2>Open your bank account</h2>
+      <form class="modal__form">
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email" required />
+        <button class="btn">Open Account</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
